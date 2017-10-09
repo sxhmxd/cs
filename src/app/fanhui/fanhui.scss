@@ -1,0 +1,46 @@
+.fanhui_box{
+
+}
+.fanhui_box_left{
+  position: absolute;
+
+  top: 250px;
+  left: 550px;
+}
+.fanhui_box_left h1{
+  color:red;
+
+}
+.fanhui_box_left p{
+  color: #c3c3c3;
+  font-size: 18px;
+}
+.fanhui_box_left span{
+  display: inline-block;
+  width: 120px;
+  height: 40px;
+  border: 1px solid #ff6700;
+  border-radius: 20px;
+  color: #333;
+  font-size: 16px;
+  line-height: 40px;
+  text-align: center;
+
+}
+.fanhui_box_left span:hover{
+  background-color: #ff6700;
+  color: #fff;
+  cursor: pointer;
+}
+// .fanhui_box_left span a{
+//   text-decoration: none;
+//   color: #333;
+//   font-size: 16px;
+//   line-height: 40px;
+//   padding-left:40px;
+// }
+
+.fanhui_box_right{
+  float: right;
+  margin-right: 150px;
+}

@@ -1,0 +1,85 @@
+<div class="xiaomi">
+  <div class="xiaomi_header">
+    <div ng-include="'app/top/top.html'">
+
+    </div>
+  </div>
+
+    <div  class="xiaomi_top">
+      <div class="xiaomi_top_top">
+
+        <div class="xiaomi_top_left">
+
+          <span>小米手机5</span>
+        </div>
+        <div class="xiaomi_top_right">
+
+          <a ng-click="vm.fun(0)" ui-sref="buynow">立即购买</a>
+        </div>
+      </div>
+      <div class="xiaomi_top_bottom">
+        <ul>
+          <li><a href="#">概述</a></li>
+          <li><a href="#">黑科技</a></li>
+          <li><a href="#">相机</a></li>
+          <li><a href="#">屏幕</a></li>
+          <li><a href="#">设计</a></li>
+          <li><a href="#">图集</a></li>
+          <li><a href="#">参数</a></li>
+          <li><a href="#">意外保</a></li>
+          <li><a href="#">F码通道</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="xiaomi_center">
+        <div class="xiaomi_center-one">
+
+        </div>
+        <div class="xiaomi_center-two">
+
+        </div>
+        <div class="xiaomi_center-three">
+
+        </div>
+    </div>
+    <div class="xiaomi_model">
+      <h1>小米手机5</h1><br>
+      <h2>十余项黑科技，很轻很快</h2><br>
+      <p>骁龙820处理器，最大可选4GBn内存+12GB闪存 <br>
+        4轴防抖相机，3D陶瓷/玻璃机身 <br>
+        <span>1999元起</span>
+      </p>
+    </div>
+  <div class="xiaomi_footer">
+    <div ng-include="'app/footer/footer.html'">
+    </div>
+  </div>
+</div>
+<script src="../../jquery.main.js">
+
+</script>
+<script type="text/javascript">
+
+
+  $(function(){
+
+    $(document).ready(function() {
+                 var navOffset=$(".xiaomi_top").offset().top;
+                 $(window).scroll(function(){
+                     var scrollPos=$(window).scrollTop();
+                     if(scrollPos >=50){
+                         $(".xiaomi_top").addClass("fixed");
+
+                     }else{
+                         $(".xiaomi_top").removeClass("fixed");
+
+                     }
+                 });
+
+
+
+             });
+
+  })
+</script>

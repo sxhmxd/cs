@@ -1,0 +1,114 @@
+.xiaomi{
+
+  overflow: hidden;
+  width: 1920px;
+}
+// top部分
+
+.xiaomi_top_top{
+float: right;
+margin-right:  300px;
+margin-top: 10px;
+}
+.xiaomi_top span{
+  display: inline-block;
+  line-height: 30px;
+}
+.xiaomi_top_left{
+  height: 40px;
+font-size: 18px;
+float: left;
+margin-right: 200px;
+}
+.xiaomi_top_right{
+    height: 30px;
+    width:100px;
+    background-color: #ff6700;
+    border-radius: 5px;
+    float: right;
+}
+.xiaomi_top a{
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  line-height: 30px;
+  width: 100px;
+  text-align: center;
+}
+.xiaomi_top_bottom{
+   clear: both;
+   font-size: 14px;
+   color: red;
+   width: 1920px;
+   height: 30px;
+}
+.xiaomi_top_bottom a{
+  color: #656565;
+  width: 60px;
+}
+.xiaomi_top_bottom ul{
+  list-style: none;
+  padding: 0;
+  width: 600px;
+  height: 30px;
+  float: right;
+  margin-right: 300px;
+}
+.xiaomi_top_bottom li{
+  float: left;
+  padding: 0;
+  width: 60px;
+}
+
+// top部分固定页面
+.fixed {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin: 0 auto;
+    left: 0;
+    // height: 60px;
+    // border-bottom: 2px solid #113f6c;
+    box-shadow: 0 0 2px 1px #ddd;
+    z-index: 10000;
+    background-color: #fff;
+
+}
+.fl{
+  float:left;
+}
+// center 部分
+.xiaomi_center{
+
+}
+.xiaomi_center-one{
+  width: 1920px;
+  height: 1080px;
+  background:url("../../assets/img/mi5/h-12.jpg") ;
+}
+.xiaomi_center-two{
+  width: 1920px;
+  height: 1080px;
+  background:url("../../assets/img/mi5/h-8.jpg") ;
+}
+.xiaomi_center-three{
+  width: 1920px;
+  height: 1080px;
+  background:url("../../assets/img/mi5/h-13.jpg") ;
+}
+
+.xiaomi_model{
+  position:absolute;
+  top:700px;
+  left:400px;
+}
+h1,h2{
+  padding: 0px;
+  margin: 0px;
+}
+p{
+  font-size: 16px;
+}
+ p span{
+   color:#e4393c;
+ }

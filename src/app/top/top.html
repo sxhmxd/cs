@@ -1,0 +1,135 @@
+<div class="main-topbar ">
+  <div class="container">
+    <div class="main-topbar_left">
+      <ul>
+        <li><a ui-sref="fanhui">米聊</a></li>
+        <li><a href="http://www.miliao.com/">MUI</a></li>
+        <li><a href="#">游戏</a></li>
+        <li><a href="#">问题反馈</a></li>
+      </ul>
+    </div>
+    <div class="main-topbar_right">
+      <div class="main-topbar_right_box">
+
+        <div class="">
+          <a ui-sref="login">登录</a>
+        </div>
+        <div class="">
+          <a ui-sref="register">注册</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <div class="main-header container1">
+        <div class="main-header_left ">
+          <a href="#"></a>
+        </div>
+        <div class="main-header_center ">
+          <ul>
+            <li ng-mouseenter="show=true" ng-mouseleave="show=false"><a href="#">小米手机</a></li>
+            <li ng-mouseenter="showw=true" ng-mouseleave="showw=false"><a href="#">红米</a></li>
+            <li><a href="#">平板</a></li>
+            <li><a href="#">电视</a></li>
+            <li><a href="#">盒子</a></li>
+            <li><a href="#">路由器</a></li>
+            <li><a href="#">智能操作</a></li>
+          </ul>
+        </div>
+        <div ng-mouseenter="show=true" ng-mouseleave="show=false" class="main-header_model " ng-show="show" >
+          <div class="main-header_tupian container1">
+            <div ui-sref="xiaomi"class="one1">
+              <div class="neirong">
+                <img src="../../assets/img/nav/max.jpg" alt="">
+                <p>小米Mac <br><span>1550元起</span>
+              </div>
+              </p>
+
+            </div>
+            <span></span>
+            <div class="one">
+              <div class="neirong">
+
+                <img src="../../assets/img/nav/mi5.jpg" alt="">
+                <p>小米Mac <br><span>1550元起</span>
+                </p>
+              </div>
+
+            </div>
+            <span></span>
+            <div class="one">
+              <div class="neirong">
+
+                <img src="../../assets/img/nav/mi4c.jpg" alt="">
+                <p>小米Mac <br><span>1550元起</span>
+                </p>
+              </div>
+
+            </div>
+            <span></span>
+            <div class="one">
+              <div class="neirong">
+
+                <img src="../../assets/img/nav/mipad2-16.jpg" alt="">
+                <p>小米Mac <br><span>1550元起</span>
+                </p>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div ng-mouseenter="showw=true" ng-mouseleave="showw=false" class="main-header_model " ng-show="showw">
+          <div class="main-header_tupian container1">
+            <div  class="one">
+              <div class="neirong">
+
+                <img src="../../assets/img/nav/max.jpg" alt="">
+                <p>小米Mac <br><span>1550元起</span>
+                </p>
+              </div>
+
+            </div>
+            <span></span>
+            <div class="one">
+              <div class="neirong">
+
+                <img src="../../assets/img/nav/mi5.jpg" alt="">
+                <p>小米Mac <br><span>1550元起</span>
+                </p>
+              </div>
+
+            </div>
+            <span></span>
+            <div class="one">
+              <div class="neirong">
+
+                <img src="../../assets/img/nav/mi4c.jpg" alt="">
+                <p>小米Mac <br><span>1550元起</span>
+                </p>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+
+        <div  class="main-header_right ">
+          <div class="main-header_right_box">
+            <input ng-focus="sousuo=true" ng-blur="sousuo=false" type="text" name="" value="输入搜索信息"> <p>
+              <span ui-sref="shangpin">提交查询</span>
+            </p>
+
+            <div class="main-header_right_sousuo" ng-show="sousuo">
+              <ul>
+                <li><span><a ui-sref="shangpin">小米Mac</a></span><i>约有12件</i></li>
+                <li><span>小米手机5</span><i>约有12件</i></li>
+                <li><span>小米note</span><i>约有120件</i></li>
+                <li><span>小米8</span><i>约有3000件</i></li>
+
+              </ul>
+          </div>
+          </div>
+        </div>
+    </div>

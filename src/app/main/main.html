@@ -1,0 +1,177 @@
+<div class="main">
+
+<!-- 头部工具栏 -->
+   <div class="main-header-box">
+
+     <div ng-include="'app/top/top.html'"></div>
+   </div>
+
+<!-- 商品分类 -->
+<div class="">
+
+   <div class="main-fenlei container1">
+
+    <div class="main-fenlei_left">
+      <ul>
+        <li ng-mouseenter="shoo=true" ng-mouseleave="shoo=false"><span>小米手机  平板  电话卡</span>
+
+        </li>
+        <li ng-mouseenter="sho=true" ng-mouseleave="sho=false"><span>电视 盒子</span></li>
+        <li><span>路由器 智能硬件</span></li>
+        <li><span>移动电源 插线板</span></li>
+        <li><span>耳机 音响</span></li>
+        <li><span>电池 存储卡</span></li></span>
+        <li><span>保护套 后盖</span></li>
+        <li><span>贴膜 其他配件</span></li>
+        <li><span>米免</span></li>
+        <li><span>箱包其他周边</span></li>
+      </ul>
+      <div class="main-fenlei_left_model_box">
+        <div ng-mouseenter="shoo=true" ng-mouseleave="shoo=false" class="main-fenlei_left_model" ng-show="shoo">
+          <ul>
+            <li ><img src="../../assets/img/nav/1.png" alt=""><a ui-sref="xiaomi">小米Mac</a></li>
+            <li><img src="../../assets/img/nav/2.png" alt="">红米5</li>
+            <li><img src="../../assets/img/nav/6.jpg" alt="">小米7</li>
+            <li><img src="../../assets/img/nav/1.png" alt="">小米note</li>
+            <li><img src="../../assets/img/nav/2.png" alt="">小米9</li>
+          </ul>
+        </div>
+        <div class="main-fenlei_left_model" ng-show="sho">
+          <ul>
+            <li><img src="../../assets/img/nav/1.png" alt="">小米Mac</li>
+            <li><img src="../../assets/img/nav/2.png" alt="">红米5</li>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="main-fenlei_right ">
+        <div id="myCarousel" class="carousel slide">
+            <!-- 轮播（Carousel）指标 -->
+            <ol  class="carousel-indicators">
+              <li  data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li  data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+              <li data-target="#myCarousel" data-slide-to="3"></li>
+              <li data-target="#myCarousel" data-slide-to="4"></li>
+
+            </ol>
+            <!-- 轮播（Carousel）项目 -->
+            <div ui-sref="fanhui" class="carousel-inner">
+                <div class="item active">
+                    <img src="../../assets/img/1.jpg" >
+                </div>
+                <div class="item">
+                  <img src="../../assets/img/2.jpg" >
+                </div>
+                <div class="item">
+                    <img src="../../assets/img/3.jpg" >
+                </div>
+                <div class="item">
+                    <img src="../../assets/img/4.jpg" >
+                </div>
+                <div class="item">
+                    <img src="../../assets/img/5.jpg" >
+                </div>
+            </div>
+                <!-- 轮播（Carousel）导航 -->
+            <a class="carousel-control left" href="#myCarousel"
+            data-slide="prev">
+              <span class="span_left"></span>
+            </a>
+            <a class="carousel-control right" href="#myCarousel"
+          data-slide="next">
+            <span class="span_right"></span>
+            </a>
+       </div>
+    </div>
+
+    </div>
+</div>
+
+
+<!-- 商品详细信息 -->
+<div class="container1">
+
+  <div class="main-xiangxi ">
+
+    <h2>小米明星单品</h2><br>
+    <div class="main-xiangxi_box">
+      <div >
+        <span></span>
+        <a ui-sref="fanhui">
+          <img src="../../assets/img/index/1.jpg" alt="">
+        </a>
+      </div>
+      <div >
+        <span></span>
+        <a href="#">
+          <img src="../../assets/img/index/2.jpg" alt="">
+        </a>
+      </div>
+      <div >
+        <span></span>
+        <a href="#">
+          <img src="../../assets/img/index/3.jpg" alt="">
+        </a>
+      </div>
+      <div >
+        <span></span>
+        <a href="#">
+          <img src="../../assets/img/index/4.jpg" alt="">
+        </a>
+      </div>
+
+    </div>
+
+
+  </div>
+  <div class="main-tuijian">
+
+    <h2>为您推荐</h2> <br>
+    <div class="main-tuijian_box">
+      <div >
+          <span></span>
+        <a href="#">
+          <img src="../../assets/img/index/w2.jpg" alt="">
+        </a>
+      </div>
+
+      <div >
+          <span></span>
+        <a href="#">
+          <img src="../../assets/img/index/7.jpg" alt="">
+        </a>
+      </div>
+      <div >
+          <span></span>
+        <a href="#">
+          <img src="../../assets/img/index/8.jpg" alt="">
+        </a>
+      </div>
+      <div >
+          <span></span>
+        <a href="#">
+          <img src="../../assets/img/index/10.jpg" alt="">
+        </a>
+      </div>
+
+    </div>
+      <!-- <span class="glyphicon glyphicon-triangle-left"></span> -->
+
+  </div>
+</div>
+
+
+
+
+<!-- 点击提交查询 出现的页面 -->
+
+
+<!-- footer -->
+<div class="main-footer">
+
+<div ng-include="'app/footer/footer.html'" >
+
+</div>
+</div>
